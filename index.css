@@ -1,0 +1,62 @@
+/* 强制覆盖浏览器默认样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  
+  body {
+    background-color: #F2F2F2 !important; /* 强制背景为浅灰色 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* 强制卡片样式 */
+  .quiz-container {
+    max-width: 380px;
+    width: 90%;
+    background: white;
+    border-radius: 40px !important; /* 强制超大圆角 */
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  }
+  
+  /* 强制按钮样式 */
+  .option-btn {
+    width: 100%;
+    text-align: left;
+    padding: 18px 24px;
+    margin-bottom: 12px;
+    border-radius: 16px;
+    border: 1px solid #f0f0f0;
+    background: white;
+    color: #666;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .option-btn:hover {
+    background: #f9f9f9;
+  }
+  
+  .title-text {
+    font-size: 22px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 30px;
+    line-height: 1.4;
+  }
+  
+  .header-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #ccc;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
